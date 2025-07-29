@@ -8,17 +8,15 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
-           review="android-review.googlesource.com"
-           revision="refs/tags/android-15.0.0_r32" />
-
-  <default revision="refs/heads/lineage-22.2"
-           remote="github"
-           sync-c="true"
+           review="https://android-review.googlesource.com/" />
+  <default revision="refs/tags/android-16.0.0_r2"
+           remote="aosp"
            sync-j="4" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-15.0.0_r32" />
+  <superproject name="platform/superproject" remote="aosp" revision="android-16.0.0_r2" />
   <contactinfo bugurl="go/repo-bug" />
 
   <!-- AOSP Projects -->
