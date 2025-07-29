@@ -29,7 +29,7 @@
            fetch="https://codeberg.org/Evolution-X"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/vic" />
+           revision="refs/heads/bka" />
 
   <remote  name="github-other"
            fetch="https://github.com/"
