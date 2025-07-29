@@ -947,7 +947,8 @@
   </project>
   <!-- END open-source projects -->
 
-  <include name="snippets/infinity.xml" />
+  <include name="snippets/pixel.xml" />
+  <include name="snippets/rising.xml" />
   <include name="snippets/lineage.xml" />
 
 </manifest>
