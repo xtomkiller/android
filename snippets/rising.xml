@@ -11,19 +11,19 @@
           fetch="https://github.com/RisingOS-Revived-devices/"
           sync-c="true"
           sync-j="4"
-          revision="refs/heads/fifteen" />
+          revision="refs/heads/sixteen" />
 
   <remote name="devices-gitlab"
           fetch="https://gitlab.com/RisingOS-Revived-devices/"
           sync-c="true"
           sync-j="4"
-          revision="refs/heads/fifteen" />
+          revision="refs/heads/sixteen" />
 
   <remote name="gitlab"
           fetch="https://gitlab.com/"
           sync-c="true"
           sync-j="4"
-          revision="refs/heads/fifteen" />
+          revision="refs/heads/sixteen" />
   
   <remote  name="evo-codeberg"
            fetch="https://codeberg.org/Evolution-X"
@@ -38,7 +38,7 @@
 
   <!-- Art -->
   <project path="art" name="android_art" groups="pdk" remote="rising" />
-  <project path="vendor/official_devices" name="official_devices" revision="fifteen" remote="rising" />
+  <project path="vendor/official_devices" name="official_devices" revision="sixteen" remote="rising" />
 
   <!-- Bionic -->
   <project path="bionic" name="android_bionic" groups="pdk" remote="rising" />
